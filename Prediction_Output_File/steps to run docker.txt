@@ -1,0 +1,8 @@
+# Command to run docker images
+docker run -p 8080:8080 dockerpython
+
+# pull repository
+docker pull tousifahamed/dockerpython
+
+# remove images
+docker images -q | xargs docker rmi

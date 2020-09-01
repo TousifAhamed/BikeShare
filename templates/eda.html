@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Bike Share App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/style.css">
+
+
+	<style>
+		html,
+		body {
+			height: 100%;
+		}
+
+		input {
+			width: 200%;
+			margin-bottom: 10px;
+			background: #fff707;
+			border: none;
+			outline: none;
+			padding: 10px;
+			font-size: 13px;
+			color: #fff;
+			text-shadow: 1px 1px 1px #38d410d9;
+			border: 1px solid rgba(0, 0, 0, 0.3);
+			border-radius: 4px;
+			box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
+			-webkit-transition: box-shadow .5s ease;
+			-moz-transition: box-shadow .5s ease;
+			-o-transition: box-shadow .5s ease;
+			-ms-transition: box-shadow .5s ease;
+			transition: box-shadow .5s ease;
+		}
+
+		input:focus {
+			box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
+		}
+
+		body {
+			background-image: url('static/BikeShare.png');
+			height: 100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="wrapper d-flex align-items-stretch">
+		<nav id="sidebar" class="active">
+			<div class="custom-menu">
+				<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Toggle Menu</span>
+				</button>
+			</div>
+			<div class="p-4">
+				<h1><a href="index.html" class="logo">iNeuron</a></h1>
+				<ul class="list-unstyled components mb-5">
+					<li>
+						<a href="/"><span class="fa fa-home mr-3"></span> Home</a>
+					</li>
+					<li>
+						<a href="/predict"><span class="fa fa-briefcase mr-3"></span> Predict</a>
+					</li>
+					<li>
+						<a href="/About"><span class="fa fa-user mr-3"></span> About</a>
+					</li>
+
+					<li class="active">
+						<a href="/EDA"><span class="fa fa-sticky-note mr-3"></span> EDA</a>
+					</li>
+					<li>
+						<a href="/upload"><span class="fa fa-upload mr-3"></span> Bulkpred</a>
+					</li>
+					<li>
+						<a href="/retrain"><span class="fa fa-repeat mr-3"></span> Retrain</a>
+					</li>
+					<li>
+						<a href="/dashboard"><span class="fa fa-line-chart mr-3"></span> Dashboard</a>
+					</li>
+					<li>
+						<a href="/contact"><span class="fa fa-paper-plane mr-3"></span> Contact</a>
+					</li>
+				</ul>
+
+				<div class="footer">
+
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Page Content  -->
+		<div id="content" class="p-4 p-md-5 pt-5">
+			<h2 class="mb-4">Bike Share App</h2>
+
+			<iframe src="{{ url_for('show_map') }}" width="100%" height="100%"></iframe>
+
+		</div>
+	</div>
+
+	<script src="static/js/jquery.min.js"></script>
+	<script src="static/js/popper.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/main.js"></script>
+</body>
+
+</html>

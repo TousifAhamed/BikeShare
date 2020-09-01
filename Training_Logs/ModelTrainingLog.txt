@@ -1,0 +1,375 @@
+2020-02-19/16:32:47		Start of Training
+2020-02-19/16:32:47		Entered the get_data method of the Data_Getter class
+2020-02-19/16:32:47		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-02-19/16:32:47		Entered the is_null_present method of the Preprocessor class
+2020-02-19/16:32:47		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2020-02-19/16:32:56		Entered the separate_label_feature method of the Preprocessor class
+2020-02-19/16:32:56		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2020-02-19/16:32:56		Entered the elbow_plot method of the KMeansClustering class
+2020-02-19/16:32:57		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2020-02-19/16:32:57		Entered the create_clusters method of the KMeansClustering class
+2020-02-19/16:32:57		Entered the save_model method of the File_Operation class
+2020-02-19/16:32:57		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:32:57		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2020-02-19/16:32:59		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:33:02		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:33:02		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:33:20		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:33:38		RandomForestReg best params: {'bootstrap': True, 'max_features': 'auto', 'min_samples_split': 2, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:34:15		Entered the save_model method of the File_Operation class
+2020-02-19/16:34:15		Model File RandomForestRegressor2 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:34:17		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:34:18		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:34:19		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': False}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:34:24		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:34:43		RandomForestReg best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 4, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:34:57		Entered the save_model method of the File_Operation class
+2020-02-19/16:34:57		Model File RandomForestRegressor1 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:34:58		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:35:00		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:35:00		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': False}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:35:04		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:35:22		RandomForestReg best params: {'bootstrap': True, 'max_features': 'auto', 'min_samples_split': 4, 'n_estimators': 10}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:35:39		Entered the save_model method of the File_Operation class
+2020-02-19/16:35:39		Model File LinearRegression3 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:35:42		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:35:42		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:35:43		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': False}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:35:47		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:36:06		RandomForestReg best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 4, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:36:34		Entered the save_model method of the File_Operation class
+2020-02-19/16:36:35		Model File RandomForestRegressor0 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:36:35		Successful End of Training
+2020-02-19/16:57:19		Start of Training
+2020-02-19/16:57:19		Entered the get_data method of the Data_Getter class
+2020-02-19/16:57:19		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-02-19/16:57:19		Entered the is_null_present method of the Preprocessor class
+2020-02-19/16:57:19		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2020-02-19/16:57:19		Entered the separate_label_feature method of the Preprocessor class
+2020-02-19/16:57:19		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2020-02-19/16:57:19		Entered the elbow_plot method of the KMeansClustering class
+2020-02-19/16:57:20		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2020-02-19/16:57:20		Entered the create_clusters method of the KMeansClustering class
+2020-02-19/16:57:20		Entered the save_model method of the File_Operation class
+2020-02-19/16:57:20		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:57:20		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2020-02-19/16:57:20		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:57:20		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:20		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:20		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:25		RandomForestReg best params: {'bootstrap': True, 'max_features': 'auto', 'min_samples_split': 2, 'n_estimators': 20}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:25		Entered the save_model method of the File_Operation class
+2020-02-19/16:57:25		Model File RandomForestRegressor2 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:57:25		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:57:25		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:25		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': False}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:25		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:31		RandomForestReg best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 2, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:31		Entered the save_model method of the File_Operation class
+2020-02-19/16:57:31		Model File RandomForestRegressor1 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:57:31		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:57:31		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:31		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': False}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:31		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:37		RandomForestReg best params: {'bootstrap': True, 'max_features': 'auto', 'min_samples_split': 4, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:37		Entered the save_model method of the File_Operation class
+2020-02-19/16:57:37		Model File LinearRegression3 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:57:37		Entered the get_best_model method of the Model_Finder class
+2020-02-19/16:57:37		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:37		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': False}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2020-02-19/16:57:37		Entered the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:43		RandomForestReg best params: {'bootstrap': False, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2020-02-19/16:57:43		Entered the save_model method of the File_Operation class
+2020-02-19/16:57:43		Model File RandomForestRegressor0 saved. Exited the save_model method of the Model_Finder class
+2020-02-19/16:57:43		Successful End of Training
+2020-08-31/14:53:59		Start of Training
+2020-08-31/14:53:59		Entered the get_data method of the Data_Getter class
+2020-08-31/14:53:59		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/14:53:59		Entered the remove_columns method of the Preprocessor class
+2020-08-31/14:53:59		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/14:53:59		Unsuccessful End of Training
+2020-08-31/14:58:03		Start of Training
+2020-08-31/14:58:03		Entered the get_data method of the Data_Getter class
+2020-08-31/14:58:03		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/14:58:03		Entered the remove_columns method of the Preprocessor class
+2020-08-31/14:58:03		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/14:58:03		Unsuccessful End of Training
+2020-08-31/15:00:13		Start of Training
+2020-08-31/15:00:13		Entered the get_data method of the Data_Getter class
+2020-08-31/15:00:13		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:00:13		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:00:13		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:00:13		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:00:13		Exception occured in get_best_model method of the Model_Finder class. Exception message:  descriptor 'items' of 'dict' object needs an argument
+2020-08-31/15:00:13		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:00:13		Unsuccessful End of Training
+2020-08-31/15:01:27		Start of Training
+2020-08-31/15:01:27		Entered the get_data method of the Data_Getter class
+2020-08-31/15:01:27		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:01:27		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:01:27		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:01:27		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:01:27		Exception occured in get_best_model method of the Model_Finder class. Exception message:  min() arg is an empty sequence
+2020-08-31/15:01:27		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:01:27		Unsuccessful End of Training
+2020-08-31/15:26:29		Start of Training
+2020-08-31/15:26:29		Entered the get_data method of the Data_Getter class
+2020-08-31/15:26:29		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:26:29		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:26:29		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:26:29		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:26:29		Exception occured in get_best_model method of the Model_Finder class. Exception message:  min() arg is an empty sequence
+2020-08-31/15:26:29		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:26:29		Unsuccessful End of Training
+2020-08-31/15:27:34		Start of Training
+2020-08-31/15:27:34		Entered the get_data method of the Data_Getter class
+2020-08-31/15:27:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:27:34		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:27:34		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:27:34		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:27:34		Exception occured in get_best_model method of the Model_Finder class. Exception message:  min() arg is an empty sequence
+2020-08-31/15:27:34		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:27:34		Unsuccessful End of Training
+2020-08-31/15:30:21		Start of Training
+2020-08-31/15:30:21		Entered the get_data method of the Data_Getter class
+2020-08-31/15:30:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:30:21		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:30:21		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:30:21		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:30:21		Exception occured in get_best_model method of the Model_Finder class. Exception message:  min() arg is an empty sequence
+2020-08-31/15:30:21		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:30:21		Unsuccessful End of Training
+2020-08-31/15:31:18		Start of Training
+2020-08-31/15:31:18		Entered the get_data method of the Data_Getter class
+2020-08-31/15:31:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:31:18		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:31:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:31:18		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:31:18		Exception occured in get_best_model method of the Model_Finder class. Exception message:  min() arg is an empty sequence
+2020-08-31/15:31:18		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:31:18		Unsuccessful End of Training
+2020-08-31/15:34:47		Start of Training
+2020-08-31/15:34:47		Entered the get_data method of the Data_Getter class
+2020-08-31/15:34:48		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:34:48		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:34:48		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:34:48		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:34:48		Exception occured in get_best_model method of the Model_Finder class. Exception message:  name 'get_best_params_for_models' is not defined
+2020-08-31/15:34:48		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:34:48		Unsuccessful End of Training
+2020-08-31/15:37:20		Start of Training
+2020-08-31/15:37:20		Entered the get_data method of the Data_Getter class
+2020-08-31/15:37:20		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:37:20		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:37:20		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:37:20		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:37:20		Exception occured in get_best_model method of the Model_Finder class. Exception message:  name 'get_best_params_for_models' is not defined
+2020-08-31/15:37:20		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:37:20		Unsuccessful End of Training
+2020-08-31/15:39:43		Start of Training
+2020-08-31/15:39:43		Entered the get_data method of the Data_Getter class
+2020-08-31/15:39:43		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:39:43		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:39:43		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:39:43		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:39:43		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:39:43		Exception occured in get_best_params_for_svm method of the Model_Finder class. Exception message:  name 'x_train' is not defined
+2020-08-31/15:39:43		RandomForestRegression training  failed. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:39:43		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2020-08-31/15:39:43		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2020-08-31/15:39:43		Unsuccessful End of Training
+2020-08-31/15:42:47		Start of Training
+2020-08-31/15:42:47		Entered the get_data method of the Data_Getter class
+2020-08-31/15:42:47		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:42:47		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:42:47		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:42:47		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:42:47		Exception occured in get_best_params_for_svm method of the Model_Finder class. Exception message:  name 'x_train' is not defined
+2020-08-31/15:42:47		RandomForestRegression training  failed. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:42:47		Unsuccessful End of Training
+2020-08-31/15:44:12		Start of Training
+2020-08-31/15:44:12		Entered the get_data method of the Data_Getter class
+2020-08-31/15:44:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:44:12		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:44:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:44:12		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:44:12		Exception occured in get_best_params_for_svm method of the Model_Finder class. Exception message:  name 'rb' is not defined
+2020-08-31/15:44:12		RandomForestRegression training  failed. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:44:12		Unsuccessful End of Training
+2020-08-31/15:44:50		Start of Training
+2020-08-31/15:44:50		Entered the get_data method of the Data_Getter class
+2020-08-31/15:44:50		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:44:50		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:44:50		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:44:50		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:44:51		Exception occured in get_best_params_for_svm method of the Model_Finder class. Exception message:  name 'pickle' is not defined
+2020-08-31/15:44:51		RandomForestRegression training  failed. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:44:51		Unsuccessful End of Training
+2020-08-31/15:46:23		Start of Training
+2020-08-31/15:46:23		Entered the get_data method of the Data_Getter class
+2020-08-31/15:46:23		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:46:23		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:46:23		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:46:23		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:46:47		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:46:47		Successful End of Training
+2020-08-31/15:47:39		Start of Training
+2020-08-31/15:47:39		Entered the get_data method of the Data_Getter class
+2020-08-31/15:47:39		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:47:39		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:47:39		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:47:39		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:48:17		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:48:17		Successful End of Training
+2020-08-31/15:47:40		Start of Training
+2020-08-31/15:47:40		Entered the get_data method of the Data_Getter class
+2020-08-31/15:47:40		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:47:40		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:47:40		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:47:40		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:48:19		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:48:19		Successful End of Training
+2020-08-31/15:51:41		Start of Training
+2020-08-31/15:51:41		Entered the get_data method of the Data_Getter class
+2020-08-31/15:51:41		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:51:41		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:51:41		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:51:41		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:52:03		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:52:03		Successful End of Training
+2020-08-31/15:52:42		Start of Training
+2020-08-31/15:52:42		Entered the get_data method of the Data_Getter class
+2020-08-31/15:52:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:52:42		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:52:42		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:52:42		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:53:06		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:53:06		Successful End of Training
+2020-08-31/15:54:53		Start of Training
+2020-08-31/15:54:53		Entered the get_data method of the Data_Getter class
+2020-08-31/15:54:53		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:54:53		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:54:53		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:54:53		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:55:16		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:55:16		Successful End of Training
+2020-08-31/15:57:21		Start of Training
+2020-08-31/15:57:21		Entered the get_data method of the Data_Getter class
+2020-08-31/15:57:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/15:57:21		Entered the remove_columns method of the Preprocessor class
+2020-08-31/15:57:21		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/15:57:21		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/15:57:44		Entered the get_best_model method of the Model_Finder class
+2020-08-31/15:57:44		Successful End of Training
+2020-08-31/16:00:12		Start of Training
+2020-08-31/16:00:12		Entered the get_data method of the Data_Getter class
+2020-08-31/16:00:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:00:12		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:00:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:00:12		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:00:34		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:00:34		Successful End of Training
+2020-08-31/16:01:05		Start of Training
+2020-08-31/16:01:05		Entered the get_data method of the Data_Getter class
+2020-08-31/16:01:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:01:05		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:01:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:01:05		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:01:29		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:01:29		Successful End of Training
+2020-08-31/16:03:33		Start of Training
+2020-08-31/16:03:33		Entered the get_data method of the Data_Getter class
+2020-08-31/16:03:33		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:03:33		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:03:33		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:03:33		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:03:55		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:03:55		Successful End of Training
+2020-08-31/16:05:44		Start of Training
+2020-08-31/16:05:44		Entered the get_data method of the Data_Getter class
+2020-08-31/16:05:44		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:05:44		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:05:44		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:05:44		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:06:06		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:06:06		Successful End of Training
+2020-08-31/16:12:49		Start of Training
+2020-08-31/16:12:49		Entered the get_data method of the Data_Getter class
+2020-08-31/16:12:49		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:12:49		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:12:49		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:12:49		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:13:19		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:13:19		Successful End of Training
+2020-08-31/16:28:42		Start of Training
+2020-08-31/16:28:42		Entered the get_data method of the Data_Getter class
+2020-08-31/16:28:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:28:42		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:28:42		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:28:42		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:29:10		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:29:10		Successful End of Training
+2020-08-31/16:30:02		Start of Training
+2020-08-31/16:30:02		Entered the get_data method of the Data_Getter class
+2020-08-31/16:30:02		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:30:03		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:30:03		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:30:03		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:30:28		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:30:28		Successful End of Training
+2020-08-31/16:31:36		Start of Training
+2020-08-31/16:31:36		Entered the get_data method of the Data_Getter class
+2020-08-31/16:31:36		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/16:31:37		Entered the remove_columns method of the Preprocessor class
+2020-08-31/16:31:37		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/16:31:37		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/16:32:02		Entered the get_best_model method of the Model_Finder class
+2020-08-31/16:32:02		Successful End of Training
+2020-08-31/17:00:30		Start of Training
+2020-08-31/17:00:30		Entered the get_data method of the Data_Getter class
+2020-08-31/17:00:30		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/17:00:30		Entered the remove_columns method of the Preprocessor class
+2020-08-31/17:00:30		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/17:00:30		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/17:00:56		Entered the get_best_model method of the Model_Finder class
+2020-08-31/17:00:56		Successful End of Training
+2020-08-31/20:43:51		Start of Training
+2020-08-31/20:43:51		Entered the get_data method of the Data_Getter class
+2020-08-31/20:43:51		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/20:43:51		Entered the remove_columns method of the Preprocessor class
+2020-08-31/20:43:51		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/20:43:51		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/20:44:14		Entered the get_best_model method of the Model_Finder class
+2020-08-31/20:44:14		Successful End of Training
+2020-08-31/20:53:17		Start of Training
+2020-08-31/20:53:17		Entered the get_data method of the Data_Getter class
+2020-08-31/20:53:17		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/20:53:17		Entered the remove_columns method of the Preprocessor class
+2020-08-31/20:53:17		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/20:53:17		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/20:53:39		Entered the get_best_model method of the Model_Finder class
+2020-08-31/20:53:39		Successful End of Training
+2020-08-31/20:54:52		Start of Training
+2020-08-31/20:54:52		Entered the get_data method of the Data_Getter class
+2020-08-31/20:54:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/20:54:52		Entered the remove_columns method of the Preprocessor class
+2020-08-31/20:54:52		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/20:54:52		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/20:55:15		Entered the get_best_model method of the Model_Finder class
+2020-08-31/20:55:15		Successful End of Training
+2020-08-31/20:56:56		Start of Training
+2020-08-31/20:56:56		Entered the get_data method of the Data_Getter class
+2020-08-31/20:56:56		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-08-31/20:56:56		Entered the remove_columns method of the Preprocessor class
+2020-08-31/20:56:56		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-08-31/20:56:56		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-08-31/20:57:18		Entered the get_best_model method of the Model_Finder class
+2020-08-31/20:57:18		Successful End of Training
+2020-09-01/21:44:31		Start of Training
+2020-09-01/21:44:31		Entered the get_data method of the Data_Getter class
+2020-09-01/21:44:31		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-09-01/21:44:31		Entered the remove_columns method of the Preprocessor class
+2020-09-01/21:44:31		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2020-09-01/21:44:31		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-09-01/21:44:54		Entered the get_best_model method of the Model_Finder class
+2020-09-01/21:44:54		Successful End of Training
